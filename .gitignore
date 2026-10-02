@@ -1,0 +1,38 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+
+# next.js
+/.next/
+/out/
+next-env.d.ts
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# env files
+.env
+.env*.local
+.env.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+
+# seed source PDFs (large; keep them out of git — point the seed at your folder)
+/seed-assets/pdfs/
+
+# generated cover artifacts (regenerated from PDFs via `npm run covers`)
+/seed-assets/covers/*.png

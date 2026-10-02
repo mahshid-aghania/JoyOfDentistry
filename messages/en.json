@@ -1,0 +1,349 @@
+{
+  "brand": {
+    "name": "Joy of Dentistry",
+    "mark": "JoD",
+    "tagline": "The people behind dentistry."
+  },
+  "nav": {
+    "home": "Home",
+    "magazines": "Magazines",
+    "stories": "Stories",
+    "about": "About JoD",
+    "contact": "Contact",
+    "menu": "Menu",
+    "close": "Close",
+    "search": "Search"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "fa": "فارسی",
+    "switchTo": "Switch to {language}"
+  },
+  "actions": {
+    "readIssue": "Read the Issue",
+    "readOnline": "Read Online",
+    "downloadPdf": "Download PDF",
+    "openPdf": "Open PDF",
+    "viewAll": "View all magazines",
+    "loadMore": "Load more",
+    "back": "Back",
+    "retry": "Try again",
+    "submit": "Submit",
+    "subscribe": "Subscribe",
+    "search": "Search",
+    "clear": "Clear",
+    "filter": "Filter"
+  },
+  "home": {
+    "heroEyebrow": "Latest issue",
+    "heroIntroFallback": "A new chapter in the life of dentistry.",
+    "aboutHeading": "About the publication",
+    "aboutBody": "Beyond the smile, there is a story. Joy of Dentistry explores the people, ideas, and everyday moments that make dentistry meaningful.",
+    "archiveHeading": "From the archive",
+    "archiveSubtitle": "A curated shelf of recent issues.",
+    "themesHeading": "Editorial themes",
+    "themesSubtitle": "The threads we follow, issue after issue.",
+    "featuredHeading": "Featured stories",
+    "featuredSubtitle": "Standalone reading between issues.",
+    "issueLabel": "Issue {number}"
+  },
+  "themes": {
+    "dentistLife": {
+      "title": "Dentist Life",
+      "description": "Daily rituals, routines, and the texture of a life in practice."
+    },
+    "mindWellbeing": {
+      "title": "Mind & Wellbeing",
+      "description": "Psychology, resilience, and caring for the person behind the mask."
+    },
+    "patientStories": {
+      "title": "Patient Stories",
+      "description": "The relationships and moments that stay with us."
+    },
+    "behindScenes": {
+      "title": "Behind the Scenes",
+      "description": "Inside the clinic — the craft, the teams, the quiet work."
+    },
+    "ideasInnovation": {
+      "title": "Ideas & Innovation",
+      "description": "New thinking, tools, and the future taking shape."
+    },
+    "marketingGrowth": {
+      "title": "Marketing & Practice Growth",
+      "description": "Building a practice with intention and taste."
+    },
+    "lifeBeyond": {
+      "title": "Life Beyond Dentistry",
+      "description": "Creativity, travel, and the world outside the clinic."
+    }
+  },
+  "magazines": {
+    "title": "Magazines",
+    "subtitle": "The complete Joy of Dentistry archive.",
+    "resultsCount": "{count, plural, =0 {No issues} one {# issue} other {# issues}}",
+    "filters": {
+      "year": "Year",
+      "language": "Content language",
+      "allYears": "All years",
+      "allLanguages": "All languages",
+      "sort": "Sort",
+      "newest": "Newest first",
+      "oldest": "Oldest first",
+      "searchPlaceholder": "Search issues by title or description"
+    },
+    "empty": {
+      "title": "The shelf is being set",
+      "body": "No issues have been published yet. Please check back soon.",
+      "bodyFiltered": "No issues match your filters. Try broadening your search."
+    },
+    "loading": "Loading issues…",
+    "error": {
+      "title": "We couldn't load the archive",
+      "body": "Something went wrong while fetching the magazines."
+    }
+  },
+  "issue": {
+    "issueLabel": "Issue {number}",
+    "publishedOn": "Published {date}",
+    "contentLanguage": "Content language",
+    "description": "About this issue",
+    "editorNote": "Editor's note",
+    "contents": "In this issue",
+    "relatedHeading": "More from the archive",
+    "previousIssue": "Previous issue",
+    "nextIssue": "Next issue",
+    "notFound": {
+      "title": "Issue not found",
+      "body": "This issue may have been unpublished or the link is incorrect.",
+      "cta": "Browse the archive"
+    },
+    "languageEdition": "Available in"
+  },
+  "contentLanguage": {
+    "en": "English",
+    "fa": "Farsi",
+    "bilingual": "Bilingual (English & Farsi)"
+  },
+  "reader": {
+    "title": "Online reader",
+    "openInNewTab": "Open PDF in a new tab",
+    "download": "Download",
+    "previousPage": "Previous page",
+    "nextPage": "Next page",
+    "page": "Page",
+    "of": "of",
+    "goToPage": "Go to page",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "resetZoom": "Reset zoom",
+    "fullscreen": "Full screen",
+    "exitFullscreen": "Exit full screen",
+    "loading": "Loading the issue…",
+    "renderingPage": "Rendering page {page}…",
+    "error": "This issue could not be displayed. You can still open the PDF directly.",
+    "noPdf": "No PDF has been attached to this issue yet.",
+    "edition": "Edition",
+    "modePages": "Single page",
+    "modeFlip": "Two-page spread"
+  },
+  "stories": {
+    "title": "Stories",
+    "subtitle": "Standalone articles between the issues.",
+    "readingTime": "{minutes} min read",
+    "by": "By {author}",
+    "empty": {
+      "title": "No stories yet",
+      "body": "Standalone articles will appear here as they are published."
+    },
+    "notFound": {
+      "title": "Story not found",
+      "body": "This article may have been unpublished or the link is incorrect.",
+      "cta": "Back to Stories"
+    }
+  },
+  "about": {
+    "title": "About JoD",
+    "missionHeading": "Our mission",
+    "teamHeading": "The team",
+    "editorHeading": "From the editor"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "We would love to hear from you.",
+    "detailsHeading": "Get in touch",
+    "formHeading": "Send a message",
+    "form": {
+      "name": "Your name",
+      "email": "Email address",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send message",
+      "sending": "Sending…"
+    },
+    "validation": {
+      "nameRequired": "Please enter your name.",
+      "emailRequired": "Please enter your email address.",
+      "emailInvalid": "Please enter a valid email address.",
+      "messageRequired": "Please enter a message.",
+      "messageShort": "Your message is a little short."
+    },
+    "success": {
+      "title": "Message sent",
+      "body": "Thank you — we've received your message and will reply soon."
+    },
+    "error": "Your message could not be sent. Please try again.",
+    "disabled": "The contact form is currently unavailable. Please use the details above to reach us."
+  },
+  "newsletter": {
+    "heading": "The JoD letter",
+    "body": "Occasional notes on new issues and stories. No noise.",
+    "placeholder": "Email address",
+    "success": "You're subscribed. Welcome to Joy of Dentistry.",
+    "error": "We couldn't complete your subscription. Please try again.",
+    "invalid": "Please enter a valid email address."
+  },
+  "footer": {
+    "tagline": "A bilingual dental lifestyle magazine.",
+    "explore": "Explore",
+    "language": "Language",
+    "connect": "Connect",
+    "rights": "All rights reserved.",
+    "builtWith": "Joy of Dentistry"
+  },
+  "search": {
+    "title": "Search",
+    "placeholder": "Search issues…",
+    "noResults": "No issues found for “{query}”.",
+    "hint": "Search by issue title or description, in English or Farsi.",
+    "resultsFor": "Results for “{query}”"
+  },
+  "admin": {
+    "title": "Editorial dashboard",
+    "signInTitle": "Editor sign in",
+    "signInSubtitle": "Access is restricted to Joy of Dentistry editors.",
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Sign in",
+    "signingIn": "Signing in…",
+    "signOut": "Sign out",
+    "signInError": "Sign in failed. Check your email and password.",
+    "notAuthorized": "This account is not authorized for the editorial dashboard.",
+    "notConfigured": {
+      "title": "Backend not configured",
+      "body": "Add your Supabase credentials to .env.local to enable the editorial dashboard, uploads, and publishing."
+    },
+    "nav": {
+      "issues": "Issues",
+      "articles": "Stories",
+      "content": "Site content",
+      "newIssue": "New issue"
+    },
+    "issues": {
+      "heading": "Issues",
+      "new": "New issue",
+      "empty": "No issues yet. Create your first one.",
+      "status": "Status",
+      "draft": "Draft",
+      "published": "Published",
+      "featured": "Featured",
+      "number": "No.",
+      "title": "Title",
+      "date": "Date",
+      "language": "Language",
+      "actions": "Actions",
+      "edit": "Edit",
+      "preview": "Preview",
+      "publish": "Publish",
+      "unpublish": "Unpublish",
+      "delete": "Delete",
+      "moveUp": "Move up",
+      "moveDown": "Move down",
+      "makeFeatured": "Set as featured",
+      "deleteConfirmTitle": "Delete this issue?",
+      "deleteConfirmBody": "This permanently removes the issue, its cover, and its PDF(s). This cannot be undone.",
+      "cancel": "Cancel",
+      "confirmDelete": "Delete permanently"
+    },
+    "form": {
+      "sectionIdentity": "Identity",
+      "sectionContent": "Content",
+      "sectionFiles": "Files",
+      "sectionPublishing": "Publishing",
+      "issueNumber": "Issue number",
+      "titleEn": "Title (English)",
+      "titleFa": "Title (Farsi)",
+      "descriptionEn": "Description (English)",
+      "descriptionFa": "Description (Farsi)",
+      "editorNoteEn": "Editor's note (English)",
+      "editorNoteFa": "Editor's note (Farsi)",
+      "contentsEn": "Contents list (English)",
+      "contentsFa": "Contents list (Farsi)",
+      "contentsHint": "One entry per line.",
+      "publicationDate": "Publication date",
+      "contentLanguage": "Content language of the magazine",
+      "contentLanguageHint": "This describes the PDF's actual language — it is independent of the website language.",
+      "cover": "Cover image",
+      "coverAltEn": "Cover alt text (English)",
+      "coverAltFa": "Cover alt text (Farsi)",
+      "coverHint": "Proportions are always preserved. A cover can be auto-extracted from the PDF's first page.",
+      "extractCover": "Auto-extract cover from PDF",
+      "pdfEn": "Magazine PDF",
+      "pdfFa": "Farsi-edition PDF (optional)",
+      "pdfHint": "Attach a second PDF only if you have a separate language edition of the same issue.",
+      "status": "Status",
+      "featured": "Feature as the latest issue",
+      "downloadsEnabled": "Allow PDF downloads",
+      "save": "Save draft",
+      "saveAndPublish": "Save & publish",
+      "saving": "Saving…",
+      "uploading": "Uploading {name}… {percent}%",
+      "currentFile": "Current file",
+      "replaceFile": "Replace",
+      "removeFile": "Remove",
+      "noFile": "No file yet",
+      "requiredForPublish": "Required before publishing"
+    },
+    "validation": {
+      "issueNumberRequired": "An issue number is required.",
+      "coverRequired": "A cover image is required to publish.",
+      "pdfRequired": "A magazine PDF is required to publish.",
+      "titleRequired": "At least one title (English or Farsi) is required to publish.",
+      "dateRequired": "A publication date is required to publish.",
+      "fileTooLarge": "{name} is too large. Maximum is {max} MB.",
+      "fileType": "{name} is not an accepted file type.",
+      "saved": "Saved.",
+      "published": "Published.",
+      "unpublished": "Moved to drafts.",
+      "deleted": "Issue deleted."
+    },
+    "content": {
+      "heading": "Site content",
+      "subtitle": "Editable text shown across the site, in both languages.",
+      "homeAboutEn": "Homepage intro (English)",
+      "homeAboutFa": "Homepage intro (Farsi)",
+      "aboutMissionEn": "About page — mission (English)",
+      "aboutMissionFa": "About page — mission (Farsi)",
+      "contactInfoEn": "Contact details (English)",
+      "contactInfoFa": "Contact details (Farsi)",
+      "social": "Social links",
+      "socialHint": "Add a full URL for each. Empty links are hidden.",
+      "save": "Save content",
+      "saved": "Content saved."
+    }
+  },
+  "errors": {
+    "genericTitle": "Something went wrong",
+    "genericBody": "An unexpected error occurred. Please try again.",
+    "notFoundTitle": "Page not found",
+    "notFoundBody": "The page you're looking for doesn't exist.",
+    "notFoundCta": "Return home"
+  },
+  "meta": {
+    "siteDescription": "Joy of Dentistry is a bilingual dental lifestyle magazine exploring the people, ideas, and everyday moments that make dentistry meaningful.",
+    "magazinesDescription": "Browse the complete archive of Joy of Dentistry — a bilingual dental lifestyle magazine.",
+    "aboutDescription": "About Joy of Dentistry — our mission, our audience, and the perspective behind the magazine.",
+    "contactDescription": "Get in touch with the editors of Joy of Dentistry.",
+    "storiesDescription": "Standalone stories from Joy of Dentistry, between the issues."
+  }
+}

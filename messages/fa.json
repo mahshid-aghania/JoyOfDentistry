@@ -1,0 +1,349 @@
+{
+  "brand": {
+    "name": "Joy of Dentistry",
+    "mark": "JoD",
+    "tagline": "آدم‌هایی که پشتِ دندان‌پزشکی هستند."
+  },
+  "nav": {
+    "home": "خانه",
+    "magazines": "مجله‌ها",
+    "stories": "داستان‌ها",
+    "about": "دربارهٔ JoD",
+    "contact": "تماس",
+    "menu": "منو",
+    "close": "بستن",
+    "search": "جست‌وجو"
+  },
+  "language": {
+    "label": "زبان",
+    "en": "English",
+    "fa": "فارسی",
+    "switchTo": "تغییر به {language}"
+  },
+  "actions": {
+    "readIssue": "خواندن شماره",
+    "readOnline": "مطالعهٔ آنلاین",
+    "downloadPdf": "دانلود PDF",
+    "openPdf": "باز کردن PDF",
+    "viewAll": "دیدن همهٔ مجله‌ها",
+    "loadMore": "بیشتر",
+    "back": "بازگشت",
+    "retry": "تلاش دوباره",
+    "submit": "ارسال",
+    "subscribe": "عضویت",
+    "search": "جست‌وجو",
+    "clear": "پاک کردن",
+    "filter": "فیلتر"
+  },
+  "home": {
+    "heroEyebrow": "تازه‌ترین شماره",
+    "heroIntroFallback": "فصلی تازه در زندگی دندان‌پزشکی.",
+    "aboutHeading": "دربارهٔ نشریه",
+    "aboutBody": "فراتر از لبخند، داستانی هست. Joy of Dentistry به سراغ آدم‌ها، ایده‌ها و لحظه‌های روزمره‌ای می‌رود که دندان‌پزشکی را معنادار می‌کنند.",
+    "archiveHeading": "از آرشیو",
+    "archiveSubtitle": "قفسه‌ای برگزیده از شماره‌های اخیر.",
+    "themesHeading": "موضوع‌های تحریریه",
+    "themesSubtitle": "رشته‌هایی که شماره به شماره دنبال می‌کنیم.",
+    "featuredHeading": "داستان‌های ویژه",
+    "featuredSubtitle": "خواندنی‌هایی مستقل، میان شماره‌ها.",
+    "issueLabel": "شمارهٔ {number}"
+  },
+  "themes": {
+    "dentistLife": {
+      "title": "زندگی دندان‌پزشک",
+      "description": "آیین‌ها، روزمرّگی‌ها و بافتِ یک زندگی حرفه‌ای."
+    },
+    "mindWellbeing": {
+      "title": "ذهن و تندرستی",
+      "description": "روان‌شناسی، تاب‌آوری و مراقبت از انسانِ پشتِ ماسک."
+    },
+    "patientStories": {
+      "title": "داستان بیماران",
+      "description": "رابطه‌ها و لحظه‌هایی که با ما می‌مانند."
+    },
+    "behindScenes": {
+      "title": "پشت صحنه",
+      "description": "درون مطب — هنر، تیم‌ها و کارِ بی‌صدا."
+    },
+    "ideasInnovation": {
+      "title": "ایده و نوآوری",
+      "description": "اندیشه‌های تازه، ابزارها و آینده‌ای که شکل می‌گیرد."
+    },
+    "marketingGrowth": {
+      "title": "بازاریابی و رشد مطب",
+      "description": "ساختنِ مطب با نیّت و سلیقه."
+    },
+    "lifeBeyond": {
+      "title": "زندگی فراتر از دندان‌پزشکی",
+      "description": "خلاقیت، سفر و جهانِ بیرون از مطب."
+    }
+  },
+  "magazines": {
+    "title": "مجله‌ها",
+    "subtitle": "آرشیو کامل Joy of Dentistry.",
+    "resultsCount": "{count, plural, =0 {بدون شماره} other {# شماره}}",
+    "filters": {
+      "year": "سال",
+      "language": "زبان محتوا",
+      "allYears": "همهٔ سال‌ها",
+      "allLanguages": "همهٔ زبان‌ها",
+      "sort": "ترتیب",
+      "newest": "تازه‌ترین",
+      "oldest": "قدیمی‌ترین",
+      "searchPlaceholder": "جست‌وجوی شماره‌ها بر اساس عنوان یا توضیح"
+    },
+    "empty": {
+      "title": "قفسه در حال چیده‌شدن است",
+      "body": "هنوز شماره‌ای منتشر نشده است. به‌زودی سر بزنید.",
+      "bodyFiltered": "شماره‌ای با این فیلترها یافت نشد. جست‌وجو را گسترده‌تر کنید."
+    },
+    "loading": "در حال بارگذاری شماره‌ها…",
+    "error": {
+      "title": "آرشیو بارگذاری نشد",
+      "body": "هنگام دریافت مجله‌ها خطایی رخ داد."
+    }
+  },
+  "issue": {
+    "issueLabel": "شمارهٔ {number}",
+    "publishedOn": "منتشرشده در {date}",
+    "contentLanguage": "زبان محتوا",
+    "description": "دربارهٔ این شماره",
+    "editorNote": "یادداشت سردبیر",
+    "contents": "در این شماره",
+    "relatedHeading": "بیشتر از آرشیو",
+    "previousIssue": "شمارهٔ پیشین",
+    "nextIssue": "شمارهٔ بعدی",
+    "notFound": {
+      "title": "شماره یافت نشد",
+      "body": "این شماره شاید از انتشار خارج شده یا نشانی نادرست است.",
+      "cta": "مرور آرشیو"
+    },
+    "languageEdition": "در دسترس به"
+  },
+  "contentLanguage": {
+    "en": "انگلیسی",
+    "fa": "فارسی",
+    "bilingual": "دوزبانه (انگلیسی و فارسی)"
+  },
+  "reader": {
+    "title": "خوانندهٔ آنلاین",
+    "openInNewTab": "باز کردن PDF در زبانهٔ جدید",
+    "download": "دانلود",
+    "previousPage": "صفحهٔ قبل",
+    "nextPage": "صفحهٔ بعد",
+    "page": "صفحه",
+    "of": "از",
+    "goToPage": "رفتن به صفحه",
+    "zoomIn": "بزرگ‌نمایی",
+    "zoomOut": "کوچک‌نمایی",
+    "resetZoom": "بازنشانی بزرگ‌نمایی",
+    "fullscreen": "تمام‌صفحه",
+    "exitFullscreen": "خروج از تمام‌صفحه",
+    "loading": "در حال بارگذاری شماره…",
+    "renderingPage": "در حال نمایش صفحهٔ {page}…",
+    "error": "این شماره نمایش داده نشد. می‌توانید PDF را مستقیم باز کنید.",
+    "noPdf": "هنوز PDFی به این شماره پیوست نشده است.",
+    "edition": "نسخه",
+    "modePages": "تک‌صفحه",
+    "modeFlip": "دوصفحه‌ای"
+  },
+  "stories": {
+    "title": "داستان‌ها",
+    "subtitle": "مقاله‌هایی مستقل، میان شماره‌ها.",
+    "readingTime": "{minutes} دقیقه مطالعه",
+    "by": "نوشتهٔ {author}",
+    "empty": {
+      "title": "هنوز داستانی نیست",
+      "body": "مقاله‌های مستقل با انتشار، اینجا نمایان می‌شوند."
+    },
+    "notFound": {
+      "title": "داستان یافت نشد",
+      "body": "این مقاله شاید از انتشار خارج شده یا نشانی نادرست است.",
+      "cta": "بازگشت به داستان‌ها"
+    }
+  },
+  "about": {
+    "title": "دربارهٔ JoD",
+    "missionHeading": "مأموریت ما",
+    "teamHeading": "تیم",
+    "editorHeading": "از سردبیر"
+  },
+  "contact": {
+    "title": "تماس",
+    "subtitle": "خوشحال می‌شویم از شما بشنویم.",
+    "detailsHeading": "در ارتباط باشید",
+    "formHeading": "ارسال پیام",
+    "form": {
+      "name": "نام شما",
+      "email": "نشانی ایمیل",
+      "subject": "موضوع",
+      "message": "پیام",
+      "send": "ارسال پیام",
+      "sending": "در حال ارسال…"
+    },
+    "validation": {
+      "nameRequired": "لطفاً نام خود را وارد کنید.",
+      "emailRequired": "لطفاً نشانی ایمیل خود را وارد کنید.",
+      "emailInvalid": "لطفاً یک نشانی ایمیل معتبر وارد کنید.",
+      "messageRequired": "لطفاً پیامی بنویسید.",
+      "messageShort": "پیام شما کمی کوتاه است."
+    },
+    "success": {
+      "title": "پیام ارسال شد",
+      "body": "سپاس‌گزاریم — پیام شما را دریافت کردیم و به‌زودی پاسخ می‌دهیم."
+    },
+    "error": "پیام شما ارسال نشد. لطفاً دوباره تلاش کنید.",
+    "disabled": "فرم تماس در حال حاضر در دسترس نیست. لطفاً از اطلاعات بالا استفاده کنید."
+  },
+  "newsletter": {
+    "heading": "نامهٔ JoD",
+    "body": "یادداشت‌هایی گاه‌به‌گاه دربارهٔ شماره‌ها و داستان‌های تازه. بی‌هیاهو.",
+    "placeholder": "نشانی ایمیل",
+    "success": "عضو شدید. به Joy of Dentistry خوش آمدید.",
+    "error": "عضویت شما کامل نشد. لطفاً دوباره تلاش کنید.",
+    "invalid": "لطفاً یک نشانی ایمیل معتبر وارد کنید."
+  },
+  "footer": {
+    "tagline": "یک مجلهٔ سبک‌زندگیِ دوزبانهٔ دندان‌پزشکی.",
+    "explore": "کاوش",
+    "language": "زبان",
+    "connect": "ارتباط",
+    "rights": "همهٔ حقوق محفوظ است.",
+    "builtWith": "Joy of Dentistry"
+  },
+  "search": {
+    "title": "جست‌وجو",
+    "placeholder": "جست‌وجوی شماره‌ها…",
+    "noResults": "شماره‌ای برای «{query}» یافت نشد.",
+    "hint": "جست‌وجو بر اساس عنوان یا توضیح شماره، به انگلیسی یا فارسی.",
+    "resultsFor": "نتایج برای «{query}»"
+  },
+  "admin": {
+    "title": "داشبورد تحریریه",
+    "signInTitle": "ورود سردبیر",
+    "signInSubtitle": "دسترسی تنها برای سردبیرانِ Joy of Dentistry است.",
+    "email": "ایمیل",
+    "password": "گذرواژه",
+    "signIn": "ورود",
+    "signingIn": "در حال ورود…",
+    "signOut": "خروج",
+    "signInError": "ورود ناموفق بود. ایمیل و گذرواژه را بررسی کنید.",
+    "notAuthorized": "این حساب مجاز به داشبورد تحریریه نیست.",
+    "notConfigured": {
+      "title": "پایگاه داده پیکربندی نشده",
+      "body": "برای فعال‌سازی داشبورد تحریریه، بارگذاری و انتشار، اطلاعات Supabase را در .env.local اضافه کنید."
+    },
+    "nav": {
+      "issues": "شماره‌ها",
+      "articles": "داستان‌ها",
+      "content": "محتوای سایت",
+      "newIssue": "شمارهٔ جدید"
+    },
+    "issues": {
+      "heading": "شماره‌ها",
+      "new": "شمارهٔ جدید",
+      "empty": "هنوز شماره‌ای نیست. نخستین شماره را بسازید.",
+      "status": "وضعیت",
+      "draft": "پیش‌نویس",
+      "published": "منتشرشده",
+      "featured": "ویژه",
+      "number": "ش.",
+      "title": "عنوان",
+      "date": "تاریخ",
+      "language": "زبان",
+      "actions": "عملیات",
+      "edit": "ویرایش",
+      "preview": "پیش‌نمایش",
+      "publish": "انتشار",
+      "unpublish": "لغو انتشار",
+      "delete": "حذف",
+      "moveUp": "جابه‌جایی به بالا",
+      "moveDown": "جابه‌جایی به پایین",
+      "makeFeatured": "تنظیم به‌عنوان ویژه",
+      "deleteConfirmTitle": "این شماره حذف شود؟",
+      "deleteConfirmBody": "این کار شماره، جلد و PDF(های) آن را برای همیشه حذف می‌کند. قابل بازگشت نیست.",
+      "cancel": "انصراف",
+      "confirmDelete": "حذف دائمی"
+    },
+    "form": {
+      "sectionIdentity": "هویت",
+      "sectionContent": "محتوا",
+      "sectionFiles": "فایل‌ها",
+      "sectionPublishing": "انتشار",
+      "issueNumber": "شمارهٔ مجله",
+      "titleEn": "عنوان (انگلیسی)",
+      "titleFa": "عنوان (فارسی)",
+      "descriptionEn": "توضیح (انگلیسی)",
+      "descriptionFa": "توضیح (فارسی)",
+      "editorNoteEn": "یادداشت سردبیر (انگلیسی)",
+      "editorNoteFa": "یادداشت سردبیر (فارسی)",
+      "contentsEn": "فهرست مطالب (انگلیسی)",
+      "contentsFa": "فهرست مطالب (فارسی)",
+      "contentsHint": "هر مورد در یک خط.",
+      "publicationDate": "تاریخ انتشار",
+      "contentLanguage": "زبان محتوای مجله",
+      "contentLanguageHint": "این زبانِ واقعیِ PDF را توصیف می‌کند — مستقل از زبان وب‌سایت است.",
+      "cover": "تصویر جلد",
+      "coverAltEn": "متن جایگزین جلد (انگلیسی)",
+      "coverAltFa": "متن جایگزین جلد (فارسی)",
+      "coverHint": "تناسب تصویر همواره حفظ می‌شود. جلد می‌تواند به‌طور خودکار از صفحهٔ نخست PDF استخراج شود.",
+      "extractCover": "استخراج خودکار جلد از PDF",
+      "pdfEn": "PDF مجله",
+      "pdfFa": "PDF نسخهٔ فارسی (اختیاری)",
+      "pdfHint": "تنها در صورتی PDF دوم را پیوست کنید که نسخهٔ زبانِ جداگانه‌ای از همین شماره دارید.",
+      "status": "وضعیت",
+      "featured": "نمایش به‌عنوان تازه‌ترین شماره",
+      "downloadsEnabled": "اجازهٔ دانلود PDF",
+      "save": "ذخیرهٔ پیش‌نویس",
+      "saveAndPublish": "ذخیره و انتشار",
+      "saving": "در حال ذخیره…",
+      "uploading": "در حال بارگذاری {name}… ٪{percent}",
+      "currentFile": "فایل فعلی",
+      "replaceFile": "جایگزینی",
+      "removeFile": "حذف",
+      "noFile": "هنوز فایلی نیست",
+      "requiredForPublish": "پیش از انتشار لازم است"
+    },
+    "validation": {
+      "issueNumberRequired": "شمارهٔ مجله لازم است.",
+      "coverRequired": "برای انتشار، تصویر جلد لازم است.",
+      "pdfRequired": "برای انتشار، PDF مجله لازم است.",
+      "titleRequired": "برای انتشار، دست‌کم یک عنوان (انگلیسی یا فارسی) لازم است.",
+      "dateRequired": "برای انتشار، تاریخ انتشار لازم است.",
+      "fileTooLarge": "{name} بیش از حد بزرگ است. بیشینه {max} مگابایت است.",
+      "fileType": "{name} از نوع فایل مجاز نیست.",
+      "saved": "ذخیره شد.",
+      "published": "منتشر شد.",
+      "unpublished": "به پیش‌نویس‌ها منتقل شد.",
+      "deleted": "شماره حذف شد."
+    },
+    "content": {
+      "heading": "محتوای سایت",
+      "subtitle": "متن‌های قابل‌ویرایش در سراسر سایت، به هر دو زبان.",
+      "homeAboutEn": "متن معرفی خانه (انگلیسی)",
+      "homeAboutFa": "متن معرفی خانه (فارسی)",
+      "aboutMissionEn": "صفحهٔ درباره — مأموریت (انگلیسی)",
+      "aboutMissionFa": "صفحهٔ درباره — مأموریت (فارسی)",
+      "contactInfoEn": "اطلاعات تماس (انگلیسی)",
+      "contactInfoFa": "اطلاعات تماس (فارسی)",
+      "social": "پیوندهای اجتماعی",
+      "socialHint": "برای هر کدام یک نشانی کامل وارد کنید. پیوندهای خالی پنهان می‌شوند.",
+      "save": "ذخیرهٔ محتوا",
+      "saved": "محتوا ذخیره شد."
+    }
+  },
+  "errors": {
+    "genericTitle": "خطایی رخ داد",
+    "genericBody": "خطای غیرمنتظره‌ای پیش آمد. لطفاً دوباره تلاش کنید.",
+    "notFoundTitle": "صفحه یافت نشد",
+    "notFoundBody": "صفحه‌ای که دنبالش هستید وجود ندارد.",
+    "notFoundCta": "بازگشت به خانه"
+  },
+  "meta": {
+    "siteDescription": "Joy of Dentistry یک مجلهٔ سبک‌زندگیِ دوزبانهٔ دندان‌پزشکی است که به سراغ آدم‌ها، ایده‌ها و لحظه‌های روزمره‌ای می‌رود که دندان‌پزشکی را معنادار می‌کنند.",
+    "magazinesDescription": "مرور آرشیو کامل Joy of Dentistry — یک مجلهٔ سبک‌زندگیِ دوزبانهٔ دندان‌پزشکی.",
+    "aboutDescription": "دربارهٔ Joy of Dentistry — مأموریت، مخاطب و نگاهِ پشتِ این مجله.",
+    "contactDescription": "با سردبیرانِ Joy of Dentistry در تماس باشید.",
+    "storiesDescription": "داستان‌های مستقل از Joy of Dentistry، میان شماره‌ها."
+  }
+}
