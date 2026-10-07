@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ArticleCard } from "@/components/magazine/ArticleCard";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { getPublishedArticles } from "@/lib/queries";
+import { pdfUrl } from "@/lib/storage";
 import { pageMetadata } from "@/lib/seo";
 import type { Locale } from "@/i18n/routing";
 
@@ -32,6 +33,8 @@ export default async function StoriesPage({
   const locale = localeStr as Locale;
   const t = await getTranslations("stories");
   const articles = await getPublishedArticles();
+  const collectionPdf = pdfUrl("collections/mina-50-articles-combined.pdf");
+  const indexPdf = pdfUrl("collections/mina-50-stories-index.pdf");
 
   return (
     <div className="container-editorial py-16 md:py-20">
@@ -39,6 +42,28 @@ export default async function StoriesPage({
         <p className="eyebrow mb-3">{t("title")}</p>
         <h1 className="display text-5xl md:text-6xl">{t("title")}</h1>
         <p className="mt-4 text-lg text-charcoal-soft">{t("subtitle")}</p>
+        {articles.length > 0 && collectionPdf && (
+          <div className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-2">
+            <a
+              href={collectionPdf}
+              target="_blank"
+              rel="noopener"
+              className="btn-outline inline-flex"
+            >
+              {t("downloadCollection")}
+            </a>
+            {indexPdf && (
+              <a
+                href={indexPdf}
+                target="_blank"
+                rel="noopener"
+                className="link-underline text-sm text-charcoal-soft"
+              >
+                {t("downloadIndex")}
+              </a>
+            )}
+          </div>
+        )}
       </header>
 
       {articles.length === 0 ? (

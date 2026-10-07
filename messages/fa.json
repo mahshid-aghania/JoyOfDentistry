@@ -153,6 +153,8 @@
     "readingTime": "{minutes} دقیقه مطالعه",
     "by": "نوشتهٔ {author}",
     "downloadPdf": "دریافت نسخهٔ PDF",
+    "downloadCollection": "دریافت هر ۵۰ مقاله (PDF)",
+    "downloadIndex": "فهرست و پیوندها (PDF)",
     "empty": {
       "title": "هنوز داستانی نیست",
       "body": "مقاله‌های مستقل با انتشار، اینجا نمایان می‌شوند."
