@@ -48,6 +48,7 @@ export interface Article {
   cover_path: string | null;
   cover_alt_en: string | null;
   cover_alt_fa: string | null;
+  pdf_path: string | null;
   status: IssueStatus;
   published_at: string | null;
   created_at: string;

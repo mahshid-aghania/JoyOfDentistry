@@ -36,3 +36,8 @@ yarn-error.log*
 
 # generated cover artifacts (regenerated from PDFs via `npm run covers`)
 /seed-assets/covers/*.png
+.env*
+
+# generated Story PDFs (uploaded to Supabase storage; regenerate via generate-story-pdfs.mjs)
+/content/mina-stories/pdf/
+/content/mina-stories/.pdf-tmp/

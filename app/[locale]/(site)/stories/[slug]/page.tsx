@@ -5,7 +5,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { ChevronLeft } from "@/components/ui/icons";
 import { getArticleBySlug } from "@/lib/queries";
-import { coverUrl } from "@/lib/storage";
+import { coverUrl, pdfUrl } from "@/lib/storage";
 import { localizedField } from "@/lib/types";
 import { pageMetadata } from "@/lib/seo";
 import { siteUrl } from "@/lib/env";
@@ -46,6 +46,7 @@ export default async function ArticlePage({
   const title = localizedField(row, "title", locale);
   const body = localizedField(row, "body", locale);
   const cover = coverUrl(article.cover_path);
+  const pdf = pdfUrl(article.pdf_path);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -78,6 +79,13 @@ export default async function ArticlePage({
             <span>{t("readingTime", { minutes: article.reading_minutes })}</span>
           )}
         </div>
+        {pdf && (
+          <div className="mt-6">
+            <a href={pdf} target="_blank" rel="noopener" className="btn-outline inline-flex">
+              {t("downloadPdf")}
+            </a>
+          </div>
+        )}
       </header>
 
       {cover && (
@@ -95,9 +103,10 @@ export default async function ArticlePage({
       )}
 
       {body && (
-        <div className="mx-auto mt-12 max-w-2xl whitespace-pre-line text-lg leading-relaxed text-charcoal-soft">
-          {body}
-        </div>
+        <div
+          className="prose-article mx-auto mt-12 max-w-2xl text-lg leading-relaxed"
+          dangerouslySetInnerHTML={{ __html: body }}
+        />
       )}
 
       <script

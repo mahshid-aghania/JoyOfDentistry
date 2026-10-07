@@ -152,6 +152,7 @@
     "subtitle": "Standalone articles between the issues.",
     "readingTime": "{minutes} min read",
     "by": "By {author}",
+    "downloadPdf": "Download as PDF",
     "empty": {
       "title": "No stories yet",
       "body": "Standalone articles will appear here as they are published."

@@ -245,3 +245,52 @@
   to { opacity: 1; transform: translateY(0); }
 }
 .animate-fade-rise { animation: fade-rise 0.7s ease both; }
+
+/* Long-form article body (Stories). First-party HTML authored in-house. */
+.prose-article { color: var(--color-charcoal-soft); }
+.prose-article > p { margin-bottom: 1.25rem; }
+.prose-article > p:first-child { font-size: 1.15em; color: var(--color-charcoal); }
+.prose-article h2 {
+  font-family: var(--font-display, inherit);
+  color: var(--color-charcoal);
+  font-size: 1.6rem;
+  line-height: 1.2;
+  margin: 2.5rem 0 1rem;
+}
+.prose-article h3 {
+  color: var(--color-charcoal);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 1.75rem 0 0.6rem;
+}
+.prose-article ul, .prose-article ol { margin: 0 0 1.25rem; padding-inline-start: 1.4rem; }
+.prose-article ul { list-style: disc; }
+.prose-article ol { list-style: decimal; }
+.prose-article li { margin-bottom: 0.45rem; }
+.prose-article a {
+  color: var(--color-burgundy);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.prose-article a:hover { color: var(--color-burgundy-deep); }
+.prose-article strong { color: var(--color-charcoal); font-weight: 600; }
+.prose-article table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+}
+.prose-article th, .prose-article td {
+  border: 1px solid var(--color-line);
+  padding: 0.55rem 0.7rem;
+  text-align: start;
+  vertical-align: top;
+}
+.prose-article th { background: var(--color-ivory-deep); color: var(--color-charcoal); font-weight: 600; }
+.prose-article blockquote {
+  border-inline-start: 2px solid var(--color-champagne-deep);
+  padding-inline-start: 1rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: var(--color-charcoal);
+}
